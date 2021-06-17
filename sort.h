@@ -38,4 +38,9 @@ void selection_sort(int *array, size_t size);
 /* Quick Sort */
 void quick_sort(int *array, size_t size);
 
+/*Recursivity sort*/
+void recursivity_sort(int *array, int ka, int jey, size_t tam);
+
+/*matrix sorting*/
+size_t matrix_sorting(int *array, int ka, int jey, size_t tam);
 #endif
