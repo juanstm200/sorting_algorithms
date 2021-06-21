@@ -43,4 +43,7 @@ void recursivity_sort(int *array, int ka, int jey, size_t tam);
 
 /*matrix sorting*/
 size_t matrix_sorting(int *array, int ka, int jey, size_t tam);
+
+/*integers in ascending order using the Shell sort algorithm*/
+void shell_sort(int *array, size_t size);
 #endif
